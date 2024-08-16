@@ -8,7 +8,7 @@ site_description: Personal Site of Lin-Youshen
 # [Navigtion]
 nav:
   - English: index.md
-  - 中文: zh\index.md
+  - 中文: zh/index.md
 
 
 # [UI]
