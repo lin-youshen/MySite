@@ -6,6 +6,9 @@ site_author: Youshen Lin
 site_description: Personal Site of Lin-Youshen
 
 # [Navigtion]
+nav:
+  - English: index.md
+  - 中文: zh\index.md
 
 
 # [UI]
@@ -14,27 +17,27 @@ theme:
   name: material
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
-  palette:
-    # 日间模式
-    - scheme: default
-      # 主颜色
-      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
-      primary: indigo
-      # 链接等可交互元件的高亮色
-      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
-      accent: orange
-      toggle:
-        # 图标
-        icon: material/weather-night
-        # 鼠标悬浮提示
-        name: 切换至夜间模式
-    # 夜间模式
-    - scheme: slate
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: 切换至日间模式
+  # palette:
+  #   # 日间模式
+  #   - scheme: default
+  #     # 主颜色
+  #     # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+  #     primary: indigo
+  #     # 链接等可交互元件的高亮色
+  #     # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
+  #     accent: orange
+  #     toggle:
+  #       # 图标
+  #       icon: material/weather-night
+  #       # 鼠标悬浮提示
+  #       name: 切换至夜间模式
+  #   # 夜间模式
+  #   - scheme: slate
+  #     primary: indigo
+  #     accent: orange
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: 切换至日间模式
   features:
     # 使用 Tab 来进行分类
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
@@ -60,7 +63,17 @@ theme:
     # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
+    - navigation.instant
   language: en # 一些提示性的文字会变成中文
+
+plugins:
+  - search
+
+# extra_javascript:
+#   - mkdocs/javascripts/language_switcher.js
+
+extra_css:
+  - ./mkdocs/css/image_set.css
 
 # [bottom-left corner]
 # [版权说明]

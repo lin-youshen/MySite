@@ -1,0 +1,7 @@
+/* 例如，在 docs/stylesheets/extra.css */
+.my-image-class {
+    width: 50%;       /* 设置图片宽度为容器宽度的50% */
+    height: auto;     /* 保持图片宽高比 */
+    display: block;   /* 图片独占一行 */
+    margin: 0 auto;    /* 居中显示 */
+  }
