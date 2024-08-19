@@ -12,7 +12,7 @@ I am a third year graduate student currently studying at the School of Aeronauti
 
 More information is available [Personal Introduction](./en/introduction.md).
 
-Also, you can find my CV here: [Curriculum Vitae](./CV_linyoushen.pdf).
+Also, you can find my CV here: [Curriculum Vitae](./document/CV_linyoushen.pdf).
 
 Email: <linyoushen@buaa.edu.cn>.
 

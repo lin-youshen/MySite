@@ -5,3 +5,10 @@
     display: block;   /* 图片独占一行 */
     margin: 0 auto;    /* 居中显示 */
   }
+
+  .sidebar-custom-image {
+    display: flex;
+    margin: 10px auto; /* 或者使用特定的边距 */
+    width: 100px; /* 或者你需要的尺寸 */
+    height: auto;
+  }
