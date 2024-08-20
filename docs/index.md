@@ -1,4 +1,7 @@
-# Welcome
+<div style="display: flex; align-items: flex-start; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
+  <h1 style="margin-right: auto; padding-left: 0px;"> Welcome </h1>
+  <img src="./media/personalpicture.jpg" alt="Logo" width="100" height="100" style="text-align: right; margin-right: 1px;">
+</div>
 
 Here is a personal site of Youshen Lin <https://lin-youshen.github.io/MySite/>
 
@@ -17,4 +20,4 @@ Also, you can find my CV here: [Curriculum Vitae](./document/CV_linyoushen.pdf).
 Email: <linyoushen@buaa.edu.cn>.
 
 ---
-> updated at 26th Jun 2024
+> Updated at 26th Jun 2024
