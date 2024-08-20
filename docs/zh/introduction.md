@@ -11,11 +11,9 @@
 <h3 style="text-align: center;">四旋翼无人机在密集动态环境的避障研究</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="display: block; margin-left: auto; margin-right: auto;">
-  <!-- <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;"> -->
+  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
 </div>
-
-<img src="../../media/simulation.png" alt="Logo" width="400" height="100" style="display: block; margin-left: auto; margin-right: auto;">
 
 针对无人机在动态环境中避障飞行进行研究。开发了一种一致性区分动态和静态点云的方法，该方法通过相邻的点云帧快速获得物体估计速度。同时针对有限感知视场无人机，提出了一种主动感知的轨迹规划方法。此外，此处根据开源行人运动库[pedsim_ros](https://github.com/srl-freiburg/pedsim_ros)在[Gazebo](https://gazebosim.org)仿真器中进行映射，以模拟真实行人的运动效果。(2024)
 
@@ -24,8 +22,8 @@
 <h3 style="text-align: center;">视觉引导商用飞机着陆技术研究</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/landing_3.gif" alt="Logo" width="300" height="150" style="text-align: center; margin-right: 1px;">
-  <img src="../../media/landing_1.gif" alt="Logo" width="300" height="100" style="text-align: center; margin-right: 60px;">
+  <img src="../../media/landing_3.gif" alt="Logo" width="380" height="150" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: 1px;">
 </div>
 
 根据视觉对跑道进行语义分割，以自动引导固定翼飞机保持横向姿态。在此根据跑道中线与图像中轴的误差进行姿态控制。(2024)
@@ -60,6 +58,7 @@
   <img src="../../media/controller.gif" alt="Logo" width="480" height="130" style="text-align: right; margin-right: 1px;">
   <img src="../../media/se3controller.png" alt="Logo" width="410" height="80" style="text-align: right; margin-right: 1px;">
 </div>
+
 
 本科毕业设计内容，基于PX4的四旋翼无人机轨迹跟踪控制器开发。基于文献[Geometric Tracking Control of a Quadrotor UAV on SE(3)](../document/tracking_controller.pdf)原理进行开发。考虑四旋翼无人机的微分平坦特性将其姿态跟踪误差映射在SE(3)空间中进行解算以保证精确的轨迹跟踪。(2022)
 
