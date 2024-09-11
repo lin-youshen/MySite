@@ -20,6 +20,14 @@ Research on obstacle avoidance flight of UAVs in dynamic environments. A consist
 
 ---
 
+<h3 style="text-align: center;">Research on Dynamic Environment Perception Technology of Lidar</h3>
+
+<img src="../../media/avia.png" alt="123 " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;">
+
+Obtaining point cloud data through LiDAR for studying dynamic environments. Developed an environment perception algorithm based on LiDAR and implemented it in [Gazebo](https://gazebosim.org) We have built a pedestrian simulation environment internally and used radar for real-time perception. Simultaneously using [Livox-AVIA](https://www.livoxtech.com/cn/avia) in real environments. Testing and verification of multiple dynamic targets using LiDAR unmanned aerial vehicles.(2024)
+
+---
+
 <h3 style="text-align: center;">Research on Visual Guidance for Commercial Aircraft Landing Technology</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">

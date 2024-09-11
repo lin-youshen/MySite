@@ -19,6 +19,14 @@
 
 ---
 
+<h3 style="text-align: center;">激光雷达动态环境感知技术研究</h3>
+
+<img src="../../media/avia.png" alt="123 " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;">
+
+通过激光雷达获得点云数据对于动态环境进行研究。开发了基于激光雷达的环境感知算法，并在[Gazebo](https://gazebosim.org)内搭建了行人仿真环境，并用雷达进行实时感知。同时在现实环境中用搭载[Livox-AVIA](https://www.livoxtech.com/cn/avia)的激光雷达无人机对多个动态目标进行测试验证。(2024)
+
+---
+
 <h3 style="text-align: center;">视觉引导商用飞机着陆技术研究</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
