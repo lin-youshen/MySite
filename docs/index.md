@@ -9,11 +9,11 @@ Here is a personal site of Youshen Lin <https://lin-youshen.github.io/MySite/>
 
 ## About me
 
-I am a third year graduate student currently studying at the School of Aeronautical Science and Engineering, Beihang University. My research interests include: UAV perception, localization, and obstacle avoidance flight in dynamic environments.
+I am a third year graduate student currently studying at the School of Aeronautical Science and Engineering, Beihang University. My current research interests include: UAV perception, localization, and obstacle avoidance flight.
 
 ## Personal Information
 
-More information is available [Personal Introduction](./en/introduction.md).
+More information is available [Personal Introduction](./en/introduction.md), which includes educational experience, research experience, and other information.
 
 Also, you can find my CV here: [Curriculum Vitae](./document/CV_linyoushen.pdf).
 
