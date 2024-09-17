@@ -35,15 +35,15 @@ Obtaining point cloud data through LiDAR for studying dynamic environments. Deve
   <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: 1px;">
 </div>
 
-Perform semantic segmentation of the runway based on visual perception to automatically guide fixed wing aircraft to maintain lateral posture. Attitude control is performed based on the error between the runway centerline and the image centerline. (2024)
+According to [PIDNet](https://github.com/XuJiacong/PIDNet) Real time semantic segmentation of the runway is performed on the onboard NUC to automatically guide fixed wing aircraft to maintain lateral attitude. Attitude control is performed based on the error between the runway centerline and the image centerline. (2024)
 
 ---
 
-<h3 style="text-align: center;">Research on high-speed formation flight of multiple unmanned aerial vehicles</h3>
+<h3 style="text-align: center;">Research on Multi UAV Formation Flying and Collaborative Search</h3>
 
 <img src="../../media/fomation.gif" alt="123 " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;">
 
-Participate in the development of high-speed quadcopter drone formation flight research. Based on RTK, global positioning is provided and message exchange is achieved through 4G modules, achieving formation maintenance at a speed of 5m/s.(2024)
+Participate in the development of high-speed quadcopter drone formation flight research. Based on RTK, global positioning is provided and message exchange is achieved through 4G modules, achieving formation maintenance at a speed of 7m/s. Simultaneously achieved three machine collaborative search of ground areas and distributed communication.(2024)
 
 ---
 
@@ -53,7 +53,7 @@ Participate in the development of high-speed quadcopter drone formation flight r
 
 I participated in the research of flexible and foldable micro unmanned aerial vehicles during my undergraduate studies, which can be ejected from a folded state and provide lift through the deformation of the membrane wing surface. (2021)
 
-This work was awarded the third prize of students' academic scientific and technological works in "[FengRuCup]"(https://www-fengrubei-net.e2.buaa.edu.cn/) in 2020 and 2021. And the first prize of the 7th China International "Internet plus" Undergraduate Innovation and Entrepreneurship Competition in 2021.
+This work was awarded the third prize of students' academic scientific and technological works in "[FengRuCup](https://www-fengrubei-net.e2.buaa.edu.cn/)" in 2020 and 2021. And the first prize of the 7th China International "Internet plus" Undergraduate Innovation and Entrepreneurship Competition in 2021.
 
 The achievement has obtained the invention patent of "Foldable Full Dynamic Thin Film Wing Micro UAV System", with patent number CN202210063076.3.  
 
@@ -95,7 +95,7 @@ The work has obtained an invention patent for "Intelligent Autonomous Exploratio
 
 <img src="../../media/competiton.gif" alt="123 " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;">
 
-Participate in the '[Zhihang Cup](https://www.ghstf.org.cn/ds/2403d8d577.html)' I won first place in the simulation competition and third place in the physical competition in the national unmanned algorithm competition. This algorithm competition includes autonomous exploration of unknown environments by drones, target search and tracking, and identification of landing areas.(2023)
+Participate in the "[Zhihang Cup](https://www.ghstf.org.cn/ds/2403d8d577.html)" I won first place in the simulation competition and third place in the physical competition in the national unmanned algorithm competition. This algorithm competition includes autonomous exploration of unknown environments by drones, target search and tracking, and identification of landing areas.(2023)
 
 ## Publication
 

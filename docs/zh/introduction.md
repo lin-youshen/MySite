@@ -34,15 +34,15 @@
   <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: 1px;">
 </div>
 
-根据视觉对跑道进行语义分割，以自动引导固定翼飞机保持横向姿态。在此根据跑道中线与图像中轴的误差进行姿态控制。(2024)
+根据[PIDNet](https://github.com/XuJiacong/PIDNet)在机载的NUC上实时对跑道进行语义分割，以自动引导固定翼飞机保持横向姿态。在此根据跑道中线与图像中轴的误差进行姿态控制。(2024)
 
 ---
 
-<h3 style="text-align: center;">多无人机高速编队飞行研究</h3>
+<h3 style="text-align: center;">多无人机编队飞行与协同搜索研究</h3>
 
 <img src="../../media/fomation.gif" alt="123 " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;">
 
-参与开发高速四旋翼无人机编队飞行研究。基于RTK提供全局定位，并通过4G模块进行消息互传，实现了速度5m/s的编队保持。(2024)
+参与开发高速四旋翼无人机编队飞行研究。基于RTK提供全局定位，并通过4G模块进行消息互传，实现了速度7m/s的编队保持。同时实现了三机协作搜索地面区域，并进行分布式的通讯。(2024)
 
 ---
 
