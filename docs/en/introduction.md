@@ -9,11 +9,22 @@
 
 ## Research Experience
 
+<h3 style="text-align: center;">Research on the Consistency Framework of Dynamic SLAM and Segmentation</h3>
+
+<div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
+  <img src="../../media/openloris.png" alt="Logo" width="200" height="150" style="align-self: center; margin-left: auto;">
+  <img src="../../media/lidarcamera.png" alt="Logo" width="320" height="100" style="align-self: center; margin-right: auto;">
+</div>
+
+Research on SLAM and segmentation consistency framework in dynamic environment. This study improves perception by distinguishing feature points. Meanwhile, considering the obtained environment segmentation to eliminate the influence of dynamic targets on localization and mapping, currently test on the [openLORIS](https://lifelong-robotic-vision.github.io/dataset/) dataset. At the same time, consider the limitations of the range of visual sensors. Combining environmental image information obtained from cameras with accurate depth estimation obtained from LiDAR. This can obtain rich environmental 3D feature points for environmental obstacle perception and dynamic obstacle motion estimation. This work is still ongoing.(2024)
+
+---
+
 <h3 style="text-align: center;">Research on obstacle avoidance of quadcopter UAVs in dense dynamic environments</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
 Research on obstacle avoidance flight of UAVs in dynamic environments. A consistent method has been developed to distinguish between dynamic and static point clouds, which quickly obtains object estimation speeds through adjacent point cloud frames. At the same time, an active perception trajectory planning method is proposed for UAVs with limited perception field of view. n addition, based on the open-source pedestrian motion library [pedsim_ros](https://github.com/srl-freiburg/pedsim_ros) mapping in the [Gazebo](https://gazebosim.org) to simulate the motion effects of real pedestrians. (2024)
@@ -31,8 +42,8 @@ Obtaining point cloud data through LiDAR for studying dynamic environments. Deve
 <h3 style="text-align: center;">Research on Visual Guidance for Commercial Aircraft Landing Technology</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/landing_3.gif" alt="Logo" width="380" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/landing_3.gif" alt="Logo" width="380" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
 According to [PIDNet](https://github.com/XuJiacong/PIDNet) Real time semantic segmentation of the runway is performed on the onboard NUC to automatically guide fixed wing aircraft to maintain lateral attitude. Attitude control is performed based on the error between the runway centerline and the image centerline. (2024)
@@ -62,8 +73,8 @@ The achievement has obtained the invention patent of "Foldable Full Dynamic Thin
 <h3 style="text-align: center;">Research on Trajectory Tracking Controller of quadcopter UAV in SE (3)</h3>  
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/controller.gif" alt="Logo" width="480" height="130" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/se3controller.png" alt="Logo" width="410" height="80" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/controller.gif" alt="Logo" width="480" height="130" style="text-align: right; margin-left: auto;">
+  <img src="../../media/se3controller.png" alt="Logo" width="410" height="80" style="text-align: right; margin-right: auto;">
 </div>  
 
 The content of the undergraduate graduation project is the development of a trajectory tracking controller for quadcopter unmanned aerial vehicles based on PX4. Develop based on [Geometric Tracking Control of a Quadrotor UAV on SE(3)](../document/tracking_controller.pdf). Considering the differential flatness characteristics of quadcopter drones, their attitude tracking errors are mapped in SE (3) space for calculation to ensure accurate trajectory tracking. (2022)  
@@ -81,8 +92,8 @@ Develop a tethered drone platform equipped with LiDAR sensors([Livox-mid360](htt
 <h3 style="text-align: center;">Secondary development of quadruped robot platform</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/dog.jpg" alt="Logo" width="440" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/robotdog.gif" alt="Logo" width="330" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/dog.jpg" alt="Logo" width="440" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/robotdog.gif" alt="Logo" width="330" height="100" style="text-align: right; margin-right: auto;">
 </div>  
 
 Ensure robust operation of [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) on quadruped robots and real-time perception of environmental obstacles through external IMU data. Developed a local motion planning algorithm based on DWA in obstacle avoidance. (2023)  
@@ -128,11 +139,11 @@ Hardware capabilities: 3D modeling, unmanned aerial vehicle platform constructio
 <p style="text-align: center;">Previously built drone platform</p>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/drone1.jpg" alt="Logo" width="210" height="150" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/drone1.jpg" alt="Logo" width="210" height="150" style="text-align: right; margin-left: auto;">
   <img src="../../media/drone2.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/drone3.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/drone3.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
 ---
 
-> Updated at 20th Aug 2024
+> Updated at 10th Oct 2024

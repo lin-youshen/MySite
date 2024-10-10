@@ -7,8 +7,12 @@ site_description: Personal Site of Lin-Youshen
 
 # [Navigtion]
 nav:
-  - English: index.md
-  - 中文: zh/index.md
+  - Homepage:
+    - Homepage: index.md
+    - Personal Introduction: en/introduction.md
+  - 主页:
+    - 主页: zh/index.md
+    - 个人简介: zh/introduction.md
 
 
 # [UI]
@@ -42,6 +46,7 @@ theme:
     # 使用 Tab 来进行分类
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
     - navigation.tabs
+    - navigation.sections
     # 返回顶部的按钮，在上滑时出现
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
     - navigation.top
@@ -64,6 +69,7 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
     - navigation.instant
+    - toc.integrate
   language: en # 一些提示性的文字会变成中文
 
 plugins:

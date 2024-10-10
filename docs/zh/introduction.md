@@ -8,14 +8,25 @@
 
 ## 研究经历
 
+<h3 style="text-align: center;">动态SLAM与分割的一致性框架研究</h3>
+
+<div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
+  <img src="../../media/openloris.png" alt="Logo" width="200" height="150" style="align-self: center; margin-left: auto;">
+  <img src="../../media/lidarcamera.png" alt="Logo" width="320" height="100" style="align-self: center; margin-right: auto;">
+</div>
+
+动态环境下SLAM和分割一致性框架的研究。本研究通过区分特征点来改善感知。同时，考虑到所获得的环境分割，以消除动态目标对定位和映射的影响，目前在[openLORIS](https://lifelong-robotic-vision.github.io/dataset/)数据集上进行测试。同时，考虑视觉传感器范围的局限性。从相机获得的环境图像信息与从LiDAR获得的精确深度估计相结合。这可以获得丰富的环境3D特征点，用于环境障碍物感知和动态障碍物运动估计。这项工作仍在进行中。(2024)
+
+---
+
 <h3 style="text-align: center;">四旋翼无人机在密集动态环境的避障研究</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/test.png" alt="Logo" width="480" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
-针对无人机在动态环境中避障飞行进行研究。开发了一种一致性区分动态和静态点云的方法，该方法通过相邻的点云帧快速获得物体估计速度。同时针对有限感知视场无人机，提出了一种主动感知的轨迹规划方法。此外，此处根据开源行人运动库[pedsim_ros](https://github.com/srl-freiburg/pedsim_ros)在[Gazebo](https://gazebosim.org)仿真器中进行映射，以模拟真实行人的运动效果。(2024)
+针对无人机在动态环境中避障飞行进行研究。开发了一种一致性区分动态和静态点云的方法，该方法通过相邻的点云帧快速获得物体估计速度。同时针对有限感知视场无人机，提出了一种主动感知的轨迹规划方法。此外，此处根据开源行人运动库[pedsim_ros](https://github.com/srl-freiburg/pedsim_ros)在[Gazebo](https://gazebosim.org)仿真器中进行映射，以模拟真实行人的运动效果。目前这项工作已被ROBIO 2024接收。(2024)
 
 ---
 
@@ -30,8 +41,8 @@
 <h3 style="text-align: center;">视觉引导商用飞机着陆技术研究</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/landing_3.gif" alt="Logo" width="380" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/landing_3.gif" alt="Logo" width="380" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/landing_1.gif" alt="Logo" width="380" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
 根据[PIDNet](https://github.com/XuJiacong/PIDNet)在机载的NUC上实时对跑道进行语义分割，以自动引导固定翼飞机保持横向姿态。在此根据跑道中线与图像中轴的误差进行姿态控制。(2024)
@@ -63,8 +74,8 @@
 <!-- <img src="../../media/se3controller.png" alt=" " width="500" height="300" style="display: block; margin-left: auto; margin-right: auto;"> -->
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/controller.gif" alt="Logo" width="480" height="130" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/se3controller.png" alt="Logo" width="410" height="80" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/controller.gif" alt="Logo" width="480" height="130" style="text-align: right; margin-left: auto;">
+  <img src="../../media/se3controller.png" alt="Logo" width="410" height="80" style="text-align: right; margin-right: auto;">
 </div>
 
 
@@ -83,8 +94,8 @@
 <h3 style="text-align: center;">四足机器人平台二次开发</h3>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/dog.jpg" alt="Logo" width="440" height="150" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/robotdog.gif" alt="Logo" width="330" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/dog.jpg" alt="Logo" width="440" height="150" style="text-align: right; margin-left: auto;">
+  <img src="../../media/robotdog.gif" alt="Logo" width="330" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
 通过外部IMU数据以保证[VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)在四足机器人上鲁棒运行，并实时感知环境障碍物。在避障中开发了基于DWA的局部运动规划算法。(2023)  
@@ -129,7 +140,7 @@
 <p style="text-align: center;">曾搭建的无人机平台</p>
 
 <div style="display: flex; align-items: center; margin-top: 0px; justify-content: flex-end;" class="sidebar-logo">
-  <img src="../../media/drone1.jpg" alt="Logo" width="210" height="150" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/drone1.jpg" alt="Logo" width="210" height="150" style="text-align: right; margin-left: auto;">
   <img src="../../media/drone2.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
-  <img src="../../media/drone3.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: 1px;">
+  <img src="../../media/drone3.jpg" alt="Logo" width="250" height="100" style="text-align: right; margin-right: auto;">
 </div>
