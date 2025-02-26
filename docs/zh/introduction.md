@@ -26,7 +26,7 @@
   <img src="../../media/simulation.png" alt="Logo" width="250" height="100" style="text-align: right; margin-right: auto;">
 </div>
 
-针对无人机在动态环境中避障飞行进行研究。开发了一种一致性区分动态和静态点云的方法，该方法通过相邻的点云帧快速获得物体估计速度。同时针对有限感知视场无人机，提出了一种主动感知的轨迹规划方法。此外，此处根据开源行人运动库[pedsim_ros](https://github.com/srl-freiburg/pedsim_ros)在[Gazebo](https://gazebosim.org)仿真器中进行映射，以模拟真实行人的运动效果。目前这项工作已被ROBIO 2024接收。(2024)
+针对无人机在动态环境中避障飞行进行研究。开发了一种一致性区分动态和静态点云的方法，该方法通过相邻的点云帧快速获得物体估计速度。同时针对有限感知视场无人机，提出了一种主动感知的轨迹规划方法。此外，此处根据开源行人运动库[pedsim_ros](https://github.com/srl-freiburg/pedsim_ros)在[Gazebo](https://gazebosim.org)仿真器中进行映射，以模拟真实行人的运动效果。目前这项工作已被IEEE ROBIO 2024接收。(2024)
 
 ---
 
