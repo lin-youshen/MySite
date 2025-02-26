@@ -7,6 +7,12 @@
 - (Sep 2022 - Persent) [School of Aeronautic Science and Engineering](https://www.ase.buaa.edu.cn),
     [Beihang University](https://www.buaa.edu.cn/) (BUAA)
 
+## Internship Experience
+
+- City University of Hong Kong [GAIRLAB](https://metaslam.github.io/) (2024.11-2024.12) responsible for the hardware and navigation algorithm development of humanoid robot.
+
+- University of Hong Kong [ArcLab](https://arclab.hku.hk/index.html) (2025.2- now) responsible for the research on high-speed tracking algorithm of UAV
+
 ## Research Experience
 
 <h3 style="text-align: center;">Research on the Consistency Framework of Dynamic SLAM and Segmentation</h3>

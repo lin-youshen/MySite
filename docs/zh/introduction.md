@@ -6,6 +6,12 @@
 
 - 硕士：(2022年8月 - 至今) [北京航空航天大学](https://www.buaa.edu.cn/)，[航空科学与工程学院](https://www.ase.buaa.edu.cn)，航空工程。
 
+## 实习经历
+
+- 香港城市大学 [GAIRLAB](https://metaslam.github.io/) （2024.11 - 2024.12）负责人形机器人的硬件以及导航算法开发。
+
+- 香港大学 [ArcLab](https://arclab.hku.hk/index.html) （2025.2 - 至今）负责无人机的高速跟拍算法研究
+
 ## 研究经历
 
 <h3 style="text-align: center;">动态SLAM与分割的一致性框架研究</h3>
