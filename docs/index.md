@@ -20,4 +20,4 @@ Also, you can find my CV here: [Curriculum Vitae](./document/CV_linyoushen.pdf).
 Email: <linyoushen@buaa.edu.cn>.
 
 ---
-> Updated at 25th Feb 2025
+> Updated on 25th Feb 2025
