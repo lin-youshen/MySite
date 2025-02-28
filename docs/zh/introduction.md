@@ -120,7 +120,7 @@
 
 [1] Y. Lin, Z. Meng, J. Ji, Z. Wang and W. Gai, "Efficient Perception and Obstacle Avoidance Flight of UAVs in Dynamic Dense Environments," 2024 IEEE International Conference on Robotics and Biomimetics (ROBIO). (Accepted).  
 
-[2] Z. Wang, Z. Meng, Y. Lin, G. Zhao, J. Wang, and C. Jiang, “An Efficient Dynamic Obstacle Perception and Avoidance framework for Robust Real-Time UAV Trajectory Planning,” IEEE Transactions on Automation Science and Engineering. (Under review).  
+[2] Y. Lin, Z. Meng, Z. Wang, G. Zhao, J. Wang, and C. Jiang, “An Efficient Dynamic Obstacle Perception and Avoidance framework for Robust Real-Time UAV Trajectory Planning,” IEEE Transactions on Automation Science and Engineering. (Under review).  
 
 ## 曾获荣誉
 
